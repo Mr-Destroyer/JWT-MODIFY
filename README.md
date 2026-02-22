@@ -1,5 +1,9 @@
 # JWT None Algorithm Attack Payload Generator
 
+```
+MADE BY MOHAMMAD ZIM
+```
+
 This Python script demonstrates a JWT (JSON Web Token) vulnerability known as the "none" algorithm attack. In this attack, an attacker can forge a JWT token by setting the algorithm to "none", which bypasses signature verification on vulnerable servers.
 
 ## How it works
